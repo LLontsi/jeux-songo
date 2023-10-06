@@ -1,0 +1,100 @@
+.* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: rgb(222, 224, 224);
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.logo{
+    color: azure;
+    font-weight: bold;
+    font-size: 0.5cm;
+    text-decoration: none;
+}
+
+.logo span{
+    color: chocolate;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: cornsilk;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.bamiere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(AyaNakamura.jpg);
+    background-size: cover;
+}
+
+.bamiere .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.bamiere .contenu h2{
+    color: aliceblue;
+    font-size: 2cm;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+    color: aliceblue;
+    font-size: 1cm;
+}
+.btn1{
+    font-size: 1cm;
+    color: burlywood;
+    background-color: rgb(245, 241, 236);
+    padding: 6px 10px;
+    display: inline;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn2{
+    font-size: 1cm;
+    color: burlywood;
+    background-color: rgb(31, 34, 31);
+    padding: 6px 10px;
+    display: inline;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn1:hover{
+    letter-spacing: 0.5px;
+}

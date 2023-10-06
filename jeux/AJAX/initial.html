@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="initial.css">
+    <script src="init.js"></script>
+    <title>Jouer au songo</title>
+</head>
+<body style="background-color: rgb(235, 250, 149);">
+    <header>
+        <a href="a" class="logo"><span>I</span>nfluenceur</a>
+        <ul class="navbar">
+            <li><a href="../songo/acceuil.html">accueil</a></li>
+            <li><a href="../songo/exemple1.html">menu</a></li>
+            <li><a href="../songo/gastronomie.html">gastronomie</a></li>
+            <li><a href="../songo/habillement.html">habillement</a></li>
+        </ul>
+    </header>
+    <h1 align="center" style="font-family: z003;">Jouer au songo</h1><br><br>
+    <p>BIENVENU dans le meilleur site de jeu en ligne entre votre plus envoye la reponse et  attend qu'un autre joueur se connecte </p>
+    <form action="jeu.html" method="POST">
+        <input type="button" value="J1 vs J2" class="bouton" id="bout" onclick="newUser()">
+        <span id="cacher" style="display: none;">
+            <input type="text" placeholder="Entrez votre nom" required id="nom">
+            <input type="submit" style="background-color: rgba(140, 190, 247, 0.9);" value="jouer" onclick="insert()">
+        </span>
+    </form> 
+</body>
+</html>

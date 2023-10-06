@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: rgb(37, 37, 35);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.body{
+    background-attachment: fixed;
+    background-color: rgb(94, 91, 245) ;
+}
+.trd{
+    background-color: rgb(240, 214, 131);
+    display: flex;
+    padding: 10px 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+.c1{
+    width: 3cm;
+    height: 2cm
+}
+
+.s1{
+    width: 3cm;
+    height: 2cm
+}
+
+.a1{
+    width: 6cm;
+    height: 2cm
+}
+
+

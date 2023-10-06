@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Barre laterale qui pousse la page a l'ouverture - script html CSS gratuit : Outils-web.com</title>
+<meta name="description" content="L'apparition de la barre laterale de menu se fait par deplacement de toute la page avec animation 2 ou 3D" />
+<meta name="Robots" content="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css"href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+</head>
+<body style="background-color: powderblue;">
+						<!-- 	les num�ros d'effet correspondent � :
+								1 - Slide in on top
+								2 - Reveal
+								3 - Push
+								4 - Slide along
+								5 - Reverse slide out
+								6 - Rotate pusher
+								7 - 3D rotate in
+								8 - 3D rotate out
+								9 - Scale down pusher
+								10 - Scale Up
+								11 - Scale &amp; rotate pusher
+								12 - Open door
+								13 - Fall down
+								14 - Delayed 3D Rotat-->
+							<!-- les menus inutiles pour la d�mos sont en commentaires dans la r�alit� il n'y en aura qu'un!!! -->
+		<div id="st-container" class="st-container">
+<!-- 			<nav class="st-menu st-effect-1" id="menu-1">
+				<h2 class="icon icon-lab">Sidebar</h2>
+				<ul>
+					<li><a class="icon icon-data" href="#">Data Management</a></li>
+					<li><a class="icon icon-location" href="#">Location</a></li>
+					<li><a class="icon icon-study" href="#">Study</a></li>
+					<li><a class="icon icon-photo" href="#">Collections</a></li>
+					<li><a class="icon icon-wallet" href="#">Credits</a></li>
+				</ul>
+			</nav>
+			
+			<nav class="st-menu st-effect-2" id="menu-2">
+				<h2 class="icon icon-stack">Sidebar</h2>
+				<ul>
+					<li><a class="icon icon-data" href="#">Data Management</a></li>
+					<li><a class="icon icon-location" href="#">Location</a></li>
+					<li><a class="icon icon-study" href="#">Study</a></li>
+					<li><a class="icon icon-photo" href="#">Collections</a></li>
+					<li><a class="icon icon-wallet" href="#">Credits</a></li>
+				</ul>
+			</nav>
+
+			<nav class="st-menu st-effect-4" id="menu-4">
+				<h2 class="icon icon-lab">Sidebar</h2>
+				<ul>
+					<li><a class="icon icon-data" href="#">Data Management</a></li>
+					<li><a class="icon icon-location" href="#">Location</a></li>
+					<li><a class="icon icon-study" href="#">Study</a></li>
+					<li><a class="icon icon-photo" href="#">Collections</a></li>
+					<li><a class="icon icon-wallet" href="#">Credits</a></li>
+				</ul>
+			</nav> -->
+
+			<nav class="st-menu st-effect-5" id="menu-5">
+				<h2 class="icon icon-stack">Menu</h2>
+				<ul>
+					<li><a class="icon icon-data" href="Acceuil.html">Acceuil</a></li>
+					<li><a class="icon icon-location" href="gastronomie.html">Gastronomie</a></li>
+					<li><a class="icon icon-study" href="habillement.html">Habillement</a></li>
+					<li><a class="icon icon-photo" href="../AJAX/initial.html">jouer en ligne</a></li>
+					<li><a class="icon icon-photo" href="sjeu.html">jouer hors ligne</a></li>
+					<li><a class="icon icon-wallet" href="my web page.html">Informations</a></li>
+				</ul>
+			</nav>
+			
+			<!-- <nav class="st-menu st-effect-9" id="menu-9">
+				<h2 class="icon icon-lab">Sidebar</h2>
+				<ul>
+					<li><a class="icon icon-data" href="#">Data Management</a></li>
+					<li><a class="icon icon-location" href="#">Location</a></li>
+					<li><a class="icon icon-study" href="#">Study</a></li>
+					<li><a class="icon icon-photo" href="#">Collections</a></li>
+					<li><a class="icon icon-wallet" href="#">Credits</a></li>
+				</ul>
+			</nav>
+			
+			<nav class="st-menu st-effect-10" id="menu-10">
+				<h2 class="icon icon-stack">Sidebar</h2>
+				<ul>
+					<li><a class="icon icon-data" href="#">Data Management</a></li>
+					<li><a class="icon icon-location" href="#">Location</a></li>
+					<li><a class="icon icon-study" href="#">Study</a></li>
+					<li><a class="icon icon-photo" href="#">Collections</a></li>
+					<li><a class="icon icon-wallet" href="#">Credits</a></li>
+				</ul>
+			</nav>
+			
+			<nav class="st-menu st-effect-11" id="menu-11">
+				<h2 class="icon icon-lab">Sidebar</h2>
+				<ul>
+					<li><a class="icon icon-data" href="#">Data Management</a></li>
+					<li><a class="icon icon-location" href="#">Location</a></li>
+					<li><a class="icon icon-study" href="#">Study</a></li>
+					<li><a class="icon icon-photo" href="#">Collections</a></li>
+					<li><a class="icon icon-wallet" href="#">Credits</a></li>
+				</ul>
+			</nav>
+
+			<nav class="st-menu st-effect-12" id="menu-12">
+				<h2 class="icon icon-stack">Sidebar</h2>
+				<ul>
+					<li><a class="icon icon-data" href="#">Data Management</a></li>
+					<li><a class="icon icon-location" href="#">Location</a></li>
+					<li><a class="icon icon-study" href="#">Study</a></li>
+					<li><a class="icon icon-photo" href="#">Collections</a></li>
+					<li><a class="icon icon-wallet" href="#">Credits</a></li>
+				</ul>
+			</nav> -->
+
+			<nav class="st-menu st-effect-13" id="menu-13">
+				<h2 class="icon icon-stack">Menu</h2>
+				<ul>
+					<li><a class="icon icon-data" href="Acceuil.html">Acceuil</a></li>
+					<li><a class="icon icon-location" href="gastronomie.html">Gastronomie</a></li>
+					<li><a class="icon icon-study" href="habillement.html">Habillement</a></li>
+					<li><a class="icon icon-photo" href="../AJAX/initial.html">jouer en ligne</a></li>
+					<li><a class="icon icon-photo" href="sjeu.html">jouer hors ligne</a></li>
+					<li><a class="icon icon-wallet" href="my web page.html">Informations</a></li>
+				</ul>
+			</nav>
+
+			<!-- content push wrapper -->
+			<div class="st-pusher">
+<!-- 				<nav class="st-menu st-effect-3" id="menu-3">
+					<h2 class="icon icon-lab">Sidebar</h2>
+					<ul>
+						<li><a class="icon icon-data" href="#">Data Management</a></li>
+						<li><a class="icon icon-location" href="#">Location</a></li>
+						<li><a class="icon icon-study" href="#">Study</a></li>
+						<li><a class="icon icon-photo" href="#">Collections</a></li>
+						<li><a class="icon icon-wallet" href="#">Credits</a></li>
+					</ul>
+				</nav> -->
+
+				<nav class="st-menu st-effect-6" id="menu-6">
+					<h2 class="icon icon-stack">Menu</h2>
+					<ul>
+						<li><a class="icon icon-data" href="Acceuil.html">Acceuil</a></li>
+						<li><a class="icon icon-location" href="gastronomie.html">Gastronomie</a></li>
+						<li><a class="icon icon-study" href="habillement.html">Habillement</a></li>
+						<li><a class="icon icon-photo" href="../AJAX/initial.html">jouer en ligne</a></li>
+						<li><a class="icon icon-photo" href="sjeu.html">jouer hors ligne</a></li>
+						<li><a class="icon icon-wallet" href="my web page.html">Informations</a></li>
+					</ul>
+				</nav>
+
+				<nav class="st-menu st-effect-7" id="menu-7">
+					<h2 class="icon icon-lab">Menu</h2>
+					<ul>
+						<li><a class="icon icon-data" href="Acceuil.html">Acceuil</a></li>
+						<li><a class="icon icon-location" href="gastronomie.html">Gastronomie</a></li>
+						<li><a class="icon icon-study" href="habillement.html">Habillement</a></li>
+						<li><a class="icon icon-photo" href="../AJAX/initial.html">jouer en ligne</a></li>
+						<li><a class="icon icon-photo" href="sjeu.html">jouer hors ligne</a></li>
+						<li><a class="icon icon-wallet" href="my web page.html">Informations</a></li>
+					</ul>
+				</nav>
+
+				<nav class="st-menu st-effect-8" id="menu-8">
+					<h2 class="icon icon-stack">Menu</h2>
+					<ul>
+						<li><a class="icon icon-data" href="Acceuil.html">Acceuil</a></li>
+						<li><a class="icon icon-location" href="gastronomie.html">Gastronomie</a></li>
+						<li><a class="icon icon-study" href="habillement.html">Habillement</a></li>
+						<li><a class="icon icon-photo" href="../AJAX/initial.html">jouer en ligne</a></li>
+						<li><a class="icon icon-photo" href="sjeu.html">jouer hors ligne</a></li>
+						<li><a class="icon icon-wallet" href="my web page.html">Informations</a></li>
+					</ul>
+				</nav>
+
+				<nav class="st-menu st-effect-14" id="menu-14">
+					<h2 class="icon icon-stack">Menu</h2>
+					<ul>
+						<li><a class="icon icon-data" href="Acceuil.html">Acceuil</a></li>
+						<li><a class="icon icon-location" href="gastronomie.html">Gastronomie</a></li>
+						<li><a class="icon icon-study" href="habillement.html">Habillement</a></li>
+						<li><a class="icon icon-photo" href="../AJAX/initial.html">jouer en ligne</a></li>
+						<li><a class="icon icon-photo" href="sjeu.html">jouer hors ligne</a></li>
+						<li><a class="icon icon-wallet" href="my web page.html">Informations</a></li>
+					</ul>
+				</nav>
+
+				<div class="st-content"><!-- this is the wrapper for the content -->
+					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+						<div class="main clearfix">
+							<div id="st-trigger-effects" class="column">
+								<button data-effect="st-effect-5">Volets inverses</button>
+								<button data-effect="st-effect-6">Pousse tourne</button>
+								<button data-effect="st-effect-7">Tourne pousse</button>
+								<button data-effect="st-effect-8">Tourne pousse 2</button>
+								<button data-effect="st-effect-13">Chute</button>
+								<button data-effect="st-effect-14">Pousse tourne avec retard</button>
+							</div>
+							<div class="column">
+								<p><b>Menu barre laterale se fait par deplacement de toute la page</b></p>
+								<h1 >bienvenue sur la page de aya nakanura </h1>
+		
+		<img src="AyaNakamur.jpg" alt="aya nakanura" width="400px" height="400px">
+		<p>Hello everyone i'm very glad to have you here.</p>
+		<p>we are going to follow the daily activities of our lovely blessed man of God MOSES BLISS</p>
+		<h2>WHO IS MOSES BLISS?</h2>
+		<img src="Aya Nakamura.PNG" alt="aya nakanura" width="400px" height="400px">
+		<p>Moses Bliss is a 27-year-old Nigerian Talented Gospel Artist, who rose to fame with his song “Too Faithful” released in 2019.</p>
+		<p>He is a pianist, a drummer, a vocal coach, a music director of the Engraced Music crew (TEM crew), and the CEO of TEM planet.</p>
+		<i><h2>Let's talk about the song tha made him known <u>Too Faithful</u></h2></i>
+		<img src="img5.jpg" alt="MOSES B." width="400px" height="400px">
+		<p>This song takes one by surprise since Moses Bliss is highly known for his soul-lifting worship songs. 
+		<p> The song is about ascribing praises to God and making known His wondrous work to all to see. </p>
+		<p> Bringing sacrifices of praise should be our daily routine.</p>
+		<p>I bet you can’t resist jumping on your feet and dancing to this beautiful song.</p>
+		<p> May God give you reasons to praise Him as you listen! </p>
+		 <p>
+				Audio Player
+				00:00
+				00:00 
+				Use Up/Down Arrow keys to increase or decrease volume.
+				DOWNLOAD MP3
+		</p>
+				</p>
+				<img src="AyaNakamur.jpg" alt="aya nakanura." width="400px" height="400px">
+				<img src="Aya Nakamura.PNG" alt="aya nakanura." width="400px" height="400px">
+								</div>
+						</div><!-- /main -->
+					</div><!-- /st-content-inner -->
+				</div><!-- /st-content -->
+			<!-- </div>/st-pusher -->
+		</div><!-- /st-container -->
+		
+		<script src="js/classie.js"></script>
+		<script src="js/sidebarEffects.js"></script>
+</body>
+</html>
